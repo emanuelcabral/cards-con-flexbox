@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Chicle&family=DynaPuff:wght@500&family=Edu+QLD+Beginner&family=Fascinate&family=Fuzzy+Bubbles:wght@700&family=Gantari:wght@100&family=IBM+Plex+Sans:wght@100&family=Inter:wght@100&family=Kdam+Thmor+Pro&family=Kenia&family=Macondo&family=Mukta:wght@700&family=Nerko+One&family=Open+Sans:wght@300&family=Oswald:wght@400;700&family=Poppins:wght@100&family=Raleway:ital,wght@0,100;1,100&family=Rubik+Moonrocks&family=Zen+Dots&display=swap');
+
+/* font-family: 'Alkalami', serif;
+font-family: 'Chicle', cursive;
+font-family: 'DynaPuff', cursive;
+font-family: 'Edu QLD Beginner', cursive;
+font-family: 'Fascinate', cursive;
+font-family: 'Fuzzy Bubbles', cursive;
+font-family: 'Gantari', sans-serif;
+font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Kdam Thmor Pro', sans-serif;
+font-family: 'Kenia', cursive;
+font-family: 'Macondo', cursive;
+font-family: 'Mukta', sans-serif;
+font-family: 'Nerko One', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Rubik Moonrocks', cursive;
+font-family: 'Zen Dots', cursive; */
+
+:root{
+    --color1: 'Zen Dots', cursive;
+    --color2: 'Alkalami', serif;
+    --color3: 'Chicle', cursive;
+    --color4: 'DynaPuff', cursive;
+    --color5: 'Edu QLD Beginner', cursive;
+    --color6: 'Fascinate', cursive;
+    --color7: 'Fuzzy Bubbles', cursive;
+    --color8: 'Gantari', sans-serif;
+    --color9: 'IBM Plex Sans', sans-serif;
+    --color10: 'Inter', sans-serif;
+    --color11: 'Kdam Thmor Pro', sans-serif;
+    --color12: 'Kenia', cursive;
+    --color13: 'Macondo', cursive;
+    --color14: 'Mukta', sans-serif;
+    --color15: 'Nerko One', cursive;
+    --color16: 'Open Sans', sans-serif;
+    --color17: 'Oswald', sans-serif;
+    --color18: 'Poppins', sans-serif;
+    --color19: 'Raleway', sans-serif;
+    --color20: 'Rubik Moonrocks', cursive;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cont{
+    height: 600px;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.contenedor{
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #000;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+h2{
+    text-align: center;
+    font-family: 'oswald', sans-serif;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 30px;
+    color: blue;
+}
+article{
+    width: 30%;
+    min-height: 300px;
+    background-color: #eee;
+    border: 2px solid #999;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #000;
+}
+.img-card{
+    height: 150px;
+    width: 100%;
+    background-image: url(img/girl1.jpg);
+    background-size: cover;
+    box-shadow: 0 0 5px #000;
+}
+.team:hover{
+    transform: scale(1.12);
+}
+.team2 .img-card{
+    background-image: url(img/man.jpg);
+}
+
+.team3 .img-card{
+    background-image: url(img/woman.jpg);
+}
+
+main h3{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 20px;
+}
+main p{
+    text-align: justify;
+    padding: 15px;
+    font-family: var(--color5);
+}
+.redes{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.redes i{
+    text-shadow: 0 0 3px #999;
+}
+.redes i:nth-child(1){
+    color: blue;
+}
+
+.redes i:nth-child(2){
+    color: gray;
+}
+
+.redes i:nth-child(3){
+    color: aqua;
+}
+
+.redes i:nth-child(4){
+    color: rgb(53, 53, 251);
+}
